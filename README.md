@@ -9,8 +9,8 @@ acceptance tied to evidence and stop at the authorized destination.
 
 ## Download
 
-- [Latest installable ZIP](https://github.com/bruce-moneylane/train-skill/releases/latest/download/train-skill.zip)
-- [Versioned releases](https://github.com/bruce-moneylane/train-skill/releases)
+- [Latest installable ZIP](https://github.com/pandatastic/train-skill/releases/latest/download/train-skill.zip)
+- [Versioned releases](https://github.com/pandatastic/train-skill/releases)
 
 The ZIP includes this README, the MIT license and the complete skill with all
 three supporting references. It contains no executable installer.
@@ -33,7 +33,7 @@ does not appear. Back up or review an existing installation before replacing it.
 Clone this repository into a location of your choice:
 
 ```sh
-git clone https://github.com/bruce-moneylane/train-skill.git
+git clone https://github.com/pandatastic/train-skill.git
 ```
 
 Copy `train-skill/skills/train-skill/` into your personal `~/.agents/skills/`
@@ -44,7 +44,7 @@ Alternatively, ask Codex to use its built-in installer:
 
 ```text
 Use $skill-installer to install the skill from
-https://github.com/bruce-moneylane/train-skill/tree/main/skills/train-skill
+https://github.com/pandatastic/train-skill/tree/main/skills/train-skill
 ```
 
 An installation is a snapshot. To update it, review a newer release and replace
