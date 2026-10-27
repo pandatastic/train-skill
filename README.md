@@ -13,7 +13,7 @@ acceptance tied to evidence and stop at the authorized destination.
 - [Versioned releases](https://github.com/pandatastic/train-skill/releases)
 
 The ZIP includes this README, the MIT license and the complete skill with all
-three supporting references. It contains no executable installer.
+supporting references. It contains no executable installer.
 
 ## Install from the ZIP
 
@@ -85,6 +85,8 @@ task. Subagents require explicit authorization and do not replace requested cars
   there is a concrete need.
 - Consolidated review and repair, reuse of still-valid evidence, and proportionate
   checks against the actual candidate.
+- Guidance for reusing project verification helpers, isolated database environments
+  and review access across repairs and handoffs.
 - Concise checkpoints and bounded recovery from stalls or failed approaches.
 - A final PASS, VETO or BLOCKED result with decisive evidence and limitations.
 
@@ -117,6 +119,7 @@ skills/
       contract-template.md
       car-model-routing.md
       coverage-and-recovery.md
+      verification-reuse.md
 ```
 
 Official guidance: [Build skills](https://learn.chatgpt.com/docs/build-skills).

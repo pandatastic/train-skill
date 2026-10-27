@@ -11,6 +11,7 @@ Use only fields that affect execution. One record, not a form per dispatch.
 - Explicit exclusions, approval conditions and recovery boundary:
 - Overall effort/recovery boundary; existing user limits:
 - Required checks and any known personal access/consent dependency:
+- Verification profile and existing task/environment, when needed; required persona/browser/provider capability:
 
 Execution includes necessary implementation, setup, integration, ordinary repairs and delivery tooling within this agreement. Routine delivery should be automated. Do not infer new authority or a later destination.
 
@@ -27,6 +28,7 @@ Use [model routing](car-model-routing.md). Verify actual configurations when cre
 - Approved requirements/source references and current candidate:
 - Active assignments:
 - Passed checks and evidence links:
+- Reusable environment owner/identity and evidence cursor; persona lifetime through review, if applicable:
 - Consolidated unresolved defects and actual blockers:
 - Next action and responsible car:
 - Relevant cumulative effort/failures and uncertain operation state:

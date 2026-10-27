@@ -35,6 +35,8 @@ Follow [model routing](references/car-model-routing.md). Record and verify exact
 
 ## Review what matters
 
+Resolve the verification route before implementation depends on it: candidate, environment/profile, restricted role, required personas and browser/provider capability. For database-backed work or repeated checks, use the project's existing persistent helpers; read [verification reuse](references/verification-reuse.md). Reuse compatible task resources through repairs and sequential review. Pure unit or rendering work does not require a database by default.
+
 Review approved behavior, affected dependencies and material risks. Complete feasible review and return one consolidated defect list; do not drip-feed independent repair requests. If a blocker prevents review, fix it within authority and finish the remaining review. Reuse evidence still applicable to the candidate; rerun affected checks and mandatory integration/CI gates. Do not repeatedly audit a working baseline without a changed dependency or observed failure.
 
 Evidence must match the claim: tests for deterministic behavior; actual database/runtime-role evidence for migrations, data and permissions; authenticated browser/API evidence for relevant behavior; exact deployed candidate for release; observed provider boundary for end-to-end claims. Mocks, source inspection and admin previews do not prove live persona/provider behavior. Keep unavailable proof explicit; never fabricate PASS or manufacture unauthorized shared records to obtain it.
@@ -50,6 +52,8 @@ Do not blindly retry an uncertain external write or migration. Reconcile actual 
 ## Keep records and supervision small
 
 Follow [coverage and recovery](references/coverage-and-recovery.md): one current checkpoint, existing evidence links, concise handoffs, and active progress supervision. No mandatory new report, amendment, seal, or checklist for every dispatch. Preserve exact candidate identity and use hashes/seals only where they serve a concrete integrity need or existing requirement.
+
+At review handoff preserve the environment identity, evidence cursor and persona lifetime. Revoke temporary access after its last required review. If only human acceptance remains, retain the owned demo as needed and release unrelated shared deployment reservations so a passive wait does not block other authorized work.
 
 Close at the authorized destination with outcome, exact artifact, decisive checks, actual mutations, remaining limitations and owned-resource cleanup. PASS means agreed acceptance proven; VETO means a reviewed criterion failed; BLOCKED means safe in-scope progress needs an external change or user decision. Do not continue into optional work after completion.
 
