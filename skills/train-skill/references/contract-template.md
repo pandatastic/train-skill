@@ -11,7 +11,9 @@ Use only fields that affect execution. One record, not a form per dispatch.
 - Explicit exclusions, approval conditions and recovery boundary:
 - Overall effort/recovery boundary; existing user limits:
 - Required checks and any known personal access/consent dependency:
-- Verification profile and existing task/environment, when needed; required persona/browser/provider capability:
+- Critical outcomes: authorized proof route, representative early browser/auth/data proof or gap; destination DB major/readiness checker; required media/data/personas:
+- Verification helper entrypoint/profile/owner, when applicable:
+- Shared-method and overlay revisions; actual model/effort readback versus approved defaults; drift:
 
 Execution includes necessary implementation, setup, integration, ordinary repairs and delivery tooling within this agreement. Routine delivery should be automated. Do not infer new authority or a later destination.
 
@@ -25,7 +27,8 @@ Use [model routing](car-model-routing.md). Verify actual configurations when cre
 
 ## Current checkpoint
 
-- Approved requirements/source references and current candidate:
+- Approved requirements/source references; exact commit and clean/dirty tree identity:
+- Environment profile/DB major, generation, runtime role, helper and skill revisions:
 - Active assignments:
 - Passed checks and evidence links:
 - Reusable environment owner/identity and evidence cursor; persona lifetime through review, if applicable:
@@ -40,6 +43,8 @@ Update at material changes; keep history separately. Detour decisions need at mo
 - PASS / VETO / BLOCKED, with outcome and exact artifact:
 - Decisive checks, actual mutations, limitations and cleanup:
 - Any remaining user decision:
-- Observed interventions, repeated checks, tooling effort and elapsed delivery time (when available):
+- One structured [closure receipt](closure-telemetry.md), embedded here or linked once:
 
 Do not claim full acceptance from stage-specific evidence. Stop at the authorized outcome.
+
+Use [worked checkpoints and repair handoffs](checkpoint-examples.md). Keep evidence cursors separate from candidate identity. Apply private reporting/release overlays without duplicating the shared method.

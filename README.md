@@ -77,6 +77,8 @@ deploy, or change shared systems. Stop at the agreed local destination.
 When you request sessions, tasks or threads, each car is a separate user-visible
 task. Subagents require explicit authorization and do not replace requested cars.
 
+Shared method revision: **2026-10-28a**, released in **v1.2.0**.
+
 ## What the skill provides
 
 - A compact delivery contract: outcome, authority, destination, exclusions,
@@ -88,7 +90,9 @@ task. Subagents require explicit authorization and do not replace requested cars
 - Guidance for reusing project verification helpers, isolated database environments
   and review access across repairs and handoffs.
 - Concise checkpoints and bounded recovery from stalls or failed approaches.
-- A final PASS, VETO or BLOCKED result with decisive evidence and limitations.
+- Early acceptance feasibility, fixed-candidate evidence and serialized promotion.
+- A final PASS, VETO or BLOCKED result with decisive evidence and one compact
+  closure receipt; unavailable measurements remain unknown.
 
 ## Configure it for your environment
 
@@ -104,8 +108,9 @@ configure recurring automations. Agree a monitoring cadence when needed;
 recurring monitoring requires authorization and a supported scheduler.
 
 Keep project-specific rules, accounts, endpoints and release permissions in the
-recipient's own project instructions or delivery contract. Installing the skill
-does not authorize execution, deployment or changes to external systems.
+recipient's own private overlays, project instructions or delivery contract.
+Record overlay revisions separately. Preserve current model routing; this release
+does not change models, install telemetry instrumentation or migrate active trains. Installing the skill does not authorize execution, deployment or changes to external systems.
 
 ## Package contents
 
@@ -120,6 +125,9 @@ skills/
       car-model-routing.md
       coverage-and-recovery.md
       verification-reuse.md
+      acceptance-and-promotion.md
+      checkpoint-examples.md
+      closure-telemetry.md
 ```
 
 Official guidance: [Build skills](https://learn.chatgpt.com/docs/build-skills).

@@ -6,7 +6,7 @@ Keep process subordinate to delivery.
 
 Reuse the project's authoritative contract/checkpoint; otherwise use docs/delivery/<train-id>/ in the project workspace. Coordinator owns current state. Keep only approved outcome/boundaries, candidate and assignments, passed checks/evidence links, unresolved defects, actual blockers and next action. Preserve the source of explicit requirements and amendments; archive detailed history separately without rewriting immutable evidence.
 
-Workers receive the relevant objective, scope, candidate, ownership, expected proof, stop boundary and source locations. Return concise findings and evidence. No transcript copying, obligatory hash packet for each handoff, or separate omission-reporting system. A short existing defect entry is enough for an actual miss.
+Send the full contract once. Subsequent dispatches to an informed task carry only changed candidate/defect IDs, ownership, required result and relevant evidence. Fresh or recovered tasks receive the current checkpoint and access to the full contract. See [worked examples](checkpoint-examples.md). Workers receive the relevant objective, scope, candidate, ownership, expected proof, stop boundary and source locations. Return concise findings and evidence. No transcript copying, obligatory hash packet for each handoff, or separate omission-reporting system. A short existing defect entry is enough for an actual miss.
 
 After context loss, read the current checkpoint and relevant sources, then verify actual work state. Do not reload all history or restart completed work. Heartbeats reference this checkpoint and current notification/stop rules; replace stale instructions instead of accumulating them.
 
@@ -26,6 +26,8 @@ Progress means advancing the agreed outcome or its necessary blocker, not accumu
 
 The Closer checks the original requirements and affected integrated behavior, not only Builder claims. Consolidate defects before repair; finish feasible review even when another check is blocked. Use valid prior evidence with explicit candidate relevance and disclose untested areas. Necessary high-risk integrity/permissions/migration checks remain; optional hardening does not become a gate.
 
+For material repairs, the Builder covers the failing case, relevant existing-state cases, and applicable initialization, pending, success, failure, reload or stale-context transitions before handoff. Select relevant cases rather than a universal matrix. The Closer remains independent and does not implement/co-author the repair.
+
 Routine tool/setup defects stay with the implementation owner and existing review loop. After two unsuccessful attempts at one cause, reassess internally. Preserve total effort and failures, existing explicit ceilings and uncertain-write state. Do not create an amendment/repair allowance for each small helper. Escalate only when no justified in-scope path remains, agreed effort is exhausted, or a consequential decision is needed.
 
 Keep checks proportionate. Protect target identity, real credentials and shared data; use provider-supported secure methods. A mandatory human action must be observed, not inferred from the word secret, login, migration or operator. Stage and verify everything feasible before requesting the exact personal action. Do not evade an actual platform refusal.
@@ -34,4 +36,4 @@ Keep checks proportionate. Protect target identity, real credentials and shared 
 
 Apply authorized simplification at a safe handoff without a retrospective audit. Keep scope, accepted evidence and actual safeguards; remove redundant agent-invented ceremony and stale prompts. Direct user constraints remain unless explicitly amended. Continue with current cars and the shortest valid remaining path.
 
-At closure state the outcome, candidate, decisive checks, mutations, limitations and cleanup. Briefly record observed intervention/recheck/tooling-effort/time outcomes for one complete delivery; retain limitations when measurement is unavailable. Do not reopen accepted delivery for process improvement or automatically update skills/memory.
+At closure state the outcome, candidate, decisive checks, mutations, limitations and cleanup. Automatically assemble the single [closure receipt](closure-telemetry.md) from existing evidence, marking missing measurements unknown. Do not add a second narrative metrics report or a telemetry approval gate. Do not reopen accepted delivery for process improvement or automatically update skills/memory.
