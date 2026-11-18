@@ -7,7 +7,7 @@ metadata:
 
 # Train Skill
 
-Shared method revision: 2026-10-28a (package 1.2.0). The operating loop is **build -> independent review -> repair confirmed defects -> verify affected checks -> deliver**. The Coordinator runs the loop; the user does not operate the train.
+Shared method revision: 2026-11-18a (package 1.3.0). The operating loop is **build -> independent review -> repair confirmed defects -> verify affected checks -> deliver**. The Coordinator runs the loop; the user does not operate the train.
 
 ## Agree once
 
@@ -21,7 +21,7 @@ Execution authority covers the necessary implementation, setup, integration, mig
 
 Before substantial implementation, establish how each critical outcome will be demonstrated at the authorized destination. Where applicable and authorized, prove one representative browser/authentication/data path early; identify the destination database major version and canonical readiness checker; confirm required media, data and personas exist. Record proof or the precise prerequisite gap in the existing contract. A local rehearsal does not prove destination readiness. Surface blockers promptly and continue independent work; block only dependent work. Do not create resources or cross authority boundaries merely to complete kickoff.
 
-At kickoff record the installed shared-method revision, applicable private overlay revision, and actual task model/effort against the approved defaults. Flag drift or unavailable readback in the checkpoint; never claim requested settings were verified. Resolve consequential drift before dependent work, without silently reconfiguring active tasks. Keep organization-specific routing, reporting, permissions, release rules and helper paths in recipient-owned overlays/project instructions. This revision does not change model routing; comparable closure evidence is required before proposing routing changes.
+At kickoff record the installed shared-method revision, applicable private overlay revision, and actual task model/effort against the approved defaults. Flag drift or unavailable readback in the checkpoint; never claim requested settings were verified. Resolve consequential drift before dependent work, without silently reconfiguring active tasks. Keep organization-specific routing, reporting, permissions, release rules and helper paths in recipient-owned overlays/project instructions. Use the owning instance’s approved routing table. Evaluate efficiency claims against comparable closure receipts.
 
 ## Deliver autonomously
 
@@ -65,7 +65,7 @@ Do not blindly retry an uncertain external write or migration. Reconcile actual 
 
 ## Keep records and supervision small
 
-Follow [coverage and recovery](references/coverage-and-recovery.md): one current checkpoint, existing evidence links, concise handoffs, and active progress supervision. Send the full contract once; send subsequent deltas to tasks that retain it. Fresh/recovered tasks receive the compact checkpoint and access to the contract. No new report, approval round, amendment, seal, or checklist per dispatch; the single closure receipt below is the only added closeout record. Preserve exact candidate identity and use hashes/seals only where they serve a concrete integrity need or existing requirement.
+Follow [coverage and recovery](references/coverage-and-recovery.md): one current checkpoint, existing evidence links, concise handoffs, and event-driven supervision with a heartbeat fallback. Send the full contract once; send subsequent deltas to tasks that retain it. Fresh/recovered tasks receive the compact checkpoint and access to the contract. No new report, approval round, amendment, seal, or checklist per dispatch; the single closure receipt below is the only added closeout record. Preserve exact candidate identity and use hashes/seals only where they serve a concrete integrity need or existing requirement.
 
 At review handoff preserve the environment identity, evidence cursor and persona lifetime. Revoke temporary access after its last required review. If only human acceptance remains, retain the owned demo as needed and release unrelated shared deployment reservations so a passive wait does not block other authorized work.
 

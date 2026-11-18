@@ -21,6 +21,8 @@ independent acceptance.
 
 ## Record and verify the configuration
 
+Keep exact model IDs, efforts and conditional assignments in one recipient-owned role table. Reference roles elsewhere and record the resolved assignment in each approved manifest.
+
 The manifest records each task's exact model, supported reasoning effort,
 environment, owner and expected result. Also record permitted alternatives,
 escalation triggers and the overall effort boundary. Verify actual settings

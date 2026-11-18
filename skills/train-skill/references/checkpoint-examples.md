@@ -14,7 +14,7 @@ candidate:
   generation: task-export/g2
   runtime_role: restricted-app
   helper_revision: helper-r4
-  method_revision: 2026-10-28a
+  method_revision: 2026-11-18a
   overlay_revision: project-r2
 owners: {execution: coordinator-task, repair: builder-task, acceptance: closer-task}
 configuration: {actual_model_effort: "recorded in contract.md", drift: none}

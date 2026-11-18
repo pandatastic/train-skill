@@ -77,7 +77,7 @@ deploy, or change shared systems. Stop at the agreed local destination.
 When you request sessions, tasks or threads, each car is a separate user-visible
 task. Subagents require explicit authorization and do not replace requested cars.
 
-Shared method revision: **2026-10-28a**, released in **v1.2.0**.
+Shared method revision: **2026-11-18a**, released in **v1.3.0**.
 
 ## What the skill provides
 
@@ -89,6 +89,7 @@ Shared method revision: **2026-10-28a**, released in **v1.2.0**.
   checks against the actual candidate.
 - Guidance for reusing project verification helpers, isolated database environments
   and review access across repairs and handoffs.
+- Completion events trigger ready handoffs while an authorized heartbeat covers missed events and silent tasks.
 - Concise checkpoints and bounded recovery from stalls or failed approaches.
 - Early acceptance feasibility, fixed-candidate evidence and serialized promotion.
 - A final PASS, VETO or BLOCKED result with decisive evidence and one compact

@@ -7,7 +7,7 @@ Use the following shape, omitting irrelevant detail but retaining unknowns for u
 ```json
 {
   "schema": "train-closure/1",
-  "method_revision": "2026-10-28a",
+  "method_revision": "2026-11-18a",
   "train": "owning-project train identifier",
   "as_of": "actual UTC closeout timestamp",
   "outcome": "PASS | VETO | BLOCKED",
