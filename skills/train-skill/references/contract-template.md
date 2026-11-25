@@ -34,9 +34,13 @@ Use [model routing](car-model-routing.md). Verify actual configurations when cre
 - Reusable environment owner/identity and evidence cursor; persona lifetime through review, if applicable:
 - Consolidated unresolved defects and actual blockers:
 - Next action and responsible car:
+- Shared release slot, current owner and next shared mutation, if claimed:
+- Active CI/deployment run ID/link, exact candidate and monitoring owner, if any:
+- Current handoff ID and [event timestamps](closure-telemetry.md), when applicable:
+- Linked history and evidence:
 - Relevant cumulative effort/failures and uncertain operation state:
 
-Update at material changes; keep history separately. Detour decisions need at most a short explanation of necessity, authority and the smallest sufficient action. No routine extra approval gate or seal.
+Update current state in place at material changes. Move superseded updates to linked history or retain them in their original evidence. Detour decisions need at most a short explanation of necessity, authority and the smallest sufficient action. No routine extra approval gate or seal.
 
 ## Closure
 

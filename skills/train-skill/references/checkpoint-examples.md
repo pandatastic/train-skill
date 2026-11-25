@@ -14,7 +14,7 @@ candidate:
   generation: task-export/g2
   runtime_role: restricted-app
   helper_revision: helper-r4
-  method_revision: 2026-11-18a
+  method_revision: 2026-11-25a
   overlay_revision: project-r2
 owners: {execution: coordinator-task, repair: builder-task, acceptance: closer-task}
 configuration: {actual_model_effort: "recorded in contract.md", drift: none}
@@ -22,7 +22,15 @@ proof: {early_sign_in: evidence/auth.json, readiness: evidence/db.json}
 evidence: {cursor: 42, links: [evidence/review.json]}
 access: valid through Closer review; owner builder-task
 unresolved: [D2 stale saved filter after reload]
+release_slot: unclaimed
+watcher: {run: example-ci-42, candidate: '1111111111111111111111111111111111111111', owner: builder-task}
+handoff:
+  step: Closer D2 verdict to Builder repair
+  result_ready_at: '2026-11-25T10:00:00Z'
+  next_step_dispatched_at: '2026-11-25T10:00:08Z'
+destination_live_at: not_applicable
 next: Builder repairs D2 and verifies existing-state/reload cases
+history: history.md
 ```
 
 If readiness or authentication is blocked, replace its proof link with the actual gap and dependent criterion. Do not mark the whole train blocked when unrelated implementation can proceed. Keep effort totals and uncertain writes in current state when they affect the next action.

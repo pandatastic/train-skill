@@ -7,7 +7,7 @@ metadata:
 
 # Train Skill
 
-Shared method revision: 2026-11-18a (package 1.3.0). The operating loop is **build -> independent review -> repair confirmed defects -> verify affected checks -> deliver**. The Coordinator runs the loop; the user does not operate the train.
+Shared method revision: 2026-11-25a (package 1.4.0). The operating loop is **build -> independent review -> repair confirmed defects -> verify affected checks -> deliver**. The Coordinator runs the loop; the user does not operate the train.
 
 ## Agree once
 
@@ -47,7 +47,7 @@ Resolve the verification route before implementation depends on it: candidate, e
 
 For applicable new trains, default to the maintained owning-project helper and record its entrypoint/profile/owner. Active trains retain their tools, resources, access and valid evidence; adopt only at compatible safe handoffs, without restart, reset or redispatch.
 
-Every acceptance handoff records exact commit and working-tree state, environment profile/database version, environment generation, runtime role, helper revision and skill revision, alongside evidence links/cursor. Use [candidate validity and promotion](references/acceptance-and-promotion.md) to decide affected checks when these change. An advancing evidence cursor alone does not invalidate checks. Serialize promotion into the same destination, not independent builds and reviews; release shared deployment/migration ownership after mutations are reconciled, independently of feature/human acceptance.
+Every acceptance handoff records exact commit and working-tree state, environment profile/database version, environment generation, runtime role, helper revision and skill revision, alongside evidence links/cursor. Use [candidate validity and promotion](references/acceptance-and-promotion.md) to decide affected checks when these change. An advancing evidence cursor alone does not invalidate checks. Claim the shared release slot only when ready for the next authorized shared mutation. Release it after required reconciliation so independent work can proceed.
 
 For every material repair the Builder covers the failing case, relevant existing-state cases and affected lifecycle transitions before handoff. The Closer independently verifies the result and does not co-author the repair. See the [worked handoffs](references/checkpoint-examples.md).
 
@@ -65,7 +65,7 @@ Do not blindly retry an uncertain external write or migration. Reconcile actual 
 
 ## Keep records and supervision small
 
-Follow [coverage and recovery](references/coverage-and-recovery.md): one current checkpoint, existing evidence links, concise handoffs, and event-driven supervision with a heartbeat fallback. Send the full contract once; send subsequent deltas to tasks that retain it. Fresh/recovered tasks receive the compact checkpoint and access to the contract. No new report, approval round, amendment, seal, or checklist per dispatch; the single closure receipt below is the only added closeout record. Preserve exact candidate identity and use hashes/seals only where they serve a concrete integrity need or existing requirement.
+Follow [coverage and recovery](references/coverage-and-recovery.md): one current checkpoint with linked history, one watcher per CI/deployment run, and event-driven handoffs with a heartbeat fallback. Send the full contract once; send subsequent deltas to tasks that retain it. Fresh/recovered tasks receive the compact checkpoint and access to the contract. No new report, approval round, amendment, seal, or checklist per dispatch; the single closure receipt below is the only added closeout record. Preserve exact candidate identity and use hashes/seals only where they serve a concrete integrity need or existing requirement.
 
 At review handoff preserve the environment identity, evidence cursor and persona lifetime. Revoke temporary access after its last required review. If only human acceptance remains, retain the owned demo as needed and release unrelated shared deployment reservations so a passive wait does not block other authorized work.
 
@@ -75,4 +75,4 @@ Close at the authorized destination with outcome, exact artifact, decisive check
 
 New trains use this revision. Active trains retain their recorded method and configuration; a shared file update is not a retroactive requirement. For an authorized active-train update, apply at the next compatible safe handoff and record the revision change. Preserve completed work, valid evidence, original requirements, destination, real safeguards and current ownership. Retire redundant agent-created ceremony; identify the shortest remaining delivery path. Do not restart, re-audit everything, erase failures, override direct user ceilings, interrupt healthy operations, or create new gates to adopt this skill.
 
-Freeze the method for one complete delivery unless the user requests a change or a concrete safety-critical defect requires correction. At every closeout, the Coordinator automatically assembles one compact [structured receipt](references/closure-telemetry.md) from available evidence in the existing closure record. Missing measurements are explicitly unknown; do not require retrospective log reconstruction or invent measurements. Skill instructions do not install automatic instrumentation. Do not pause a whole train or add an approval gate for telemetry. Propose later changes only from demonstrated problems; do not automatically edit skills or memories.
+Freeze the method for one complete delivery unless the user requests a change or a concrete safety-critical defect requires correction. At every closeout, the Coordinator automatically assembles one compact [structured receipt](references/closure-telemetry.md) from available evidence in the existing closure record. Record result-ready, dispatch and verified serving times from existing evidence. Missing measurements are explicitly unknown; do not require retrospective log reconstruction or invent measurements. Skill instructions do not install automatic instrumentation. Do not pause a whole train or add an approval gate for telemetry. Propose later changes only from demonstrated problems; do not automatically edit skills or memories.
